@@ -6,8 +6,8 @@ class Shoe
     @brand = brand
   end
 
-  def cobble(conditon)
-    if condition
-    puts "Your shoe is as good as new!"
-  end
+  def cobble
+     @condition = "new"                     #instance variable condition is new it will output this message
+     puts "Your shoe is as good as new!"
+   end
 end
