@@ -9,7 +9,7 @@ describe 'Shoe' do
 
   describe 'properties' do
     it 'has a brand' do
-      # When must the brand be assigned for this to work?
+      shoe.color = "Nike"
       expect(shoe.brand).to eq("Nike")
     end
 
