@@ -14,3 +14,11 @@ class Book
   end
 end
 
+moby_dick = Book.new("Moby Dick")
+moby_dick.author = "Herman Melville"
+puts moby_dick.title
+puts moby_dick.author
+moby_dick.page_count = 500
+moby_dick.genre = "Drama"
+puts moby_dick.page_count
+puts moby_dick.genre
