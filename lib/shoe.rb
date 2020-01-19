@@ -14,3 +14,23 @@ class Shoe
 end
 
 Shoe.new("Nike")
+=======
+class Shoe
+  attr_accessor
+:size, :color, :material, :condition_good
+  attr_reader :brand
+  
+  def initialize(brand)
+    @brand = brand
+  end
+  
+  def brand
+    @brand
+  end  
+  
+  def condition_good
+    puts "The shoe has been repaired."
+  end
+  
+end
+
