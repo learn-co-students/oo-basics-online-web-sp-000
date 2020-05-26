@@ -1,3 +1,5 @@
+
+
 describe 'Book' do
   describe '::new' do
     it 'gets initialized with a title' do
@@ -32,7 +34,7 @@ describe 'Book' do
     it 'can turn the page' do
       expect($stdout).to receive(:puts).with("Flipping the page...wow, you read fast!")
       book = Book.new("The World According to Garp")
-      book.turn_page 
+      book.turn_page
     end
   end
 end
