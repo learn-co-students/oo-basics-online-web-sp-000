@@ -10,10 +10,10 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-  end
   
-  if shoe.condition != "old"
-    puts shoe.cobble
-  end
   
+    if shoe.condition != "old"
+      puts shoe.cobble
+    end
+  end
 end
