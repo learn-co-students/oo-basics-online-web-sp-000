@@ -12,8 +12,11 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  until shoe.condition != "old"
-    puts shoe.new
+    if shoe.condition = "old"
+      puts cobble
+      elsif 
+      puts shoe.new
+    end
   end
 
 end
