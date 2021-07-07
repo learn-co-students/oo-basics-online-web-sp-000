@@ -36,7 +36,7 @@ describe 'Shoe' do
 
   describe '#cobble' do
     it 'says that the shoe has been repaired' do
-      expect($stdout).to receive(:puts).with("Your shoe is as good as new!")
+      expect($stdout).to receive(:puts).with("C")
       shoe.cobble
     end
 
